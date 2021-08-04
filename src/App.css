@@ -1,0 +1,35 @@
+.app {
+  height: 100vh;
+  width: 100vw;
+  background: rgb(2, 0, 36);
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+}
+
+.App-header {
+  height: 10vh;
+  text-align: center;
+  background: rgb(21, 92, 96);
+  color: white;
+}
+
+.App-header__text {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.app-counter {
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+.buttons {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}

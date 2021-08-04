@@ -1,0 +1,46 @@
+.input {
+  margin: 2.5rem auto 0;
+  width: 50rem;
+  max-width: 95vw;
+  text-align: center;
+}
+
+.input-field {
+  width: 30rem;
+  max-width: 80vw;
+  height: 4rem;
+  outline: none;
+  border: none;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+}
+
+.input-field::placeholder {
+  opacity: 0.2;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.input-btn {
+  height: 4rem;
+  width: 4rem;
+  background: burlywood;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.input-btn:hover {
+  opacity: 0.5;
+}
+
+.validation {
+  height: 1.7rem;
+}
+
+.valid {
+  color: red;
+  font-size: 1.2rem;
+}

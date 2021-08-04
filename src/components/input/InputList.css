@@ -1,0 +1,16 @@
+.input-list {
+  margin: 1rem auto 0;
+  width: 50rem;
+  max-width: 95vw;
+  list-style: none;
+  max-height: 45vh;
+  overflow-y: scroll;
+}
+
+.input-list__fallback {
+  color: white;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  text-transform: uppercase;
+}
