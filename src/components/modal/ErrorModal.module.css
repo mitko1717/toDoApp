@@ -32,7 +32,7 @@
   background: rgb(21, 92, 96);
   color: white;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 1.6rem;
   padding: 1rem;
   width: 100%;
 }
@@ -44,7 +44,7 @@
 
 .content {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 2rem 0;
 }
 
@@ -67,6 +67,13 @@
 }
 
 @media (min-width: 768px) {
+  .content {
+    font-size: 2rem;
+    padding: 2rem 0;
+  }
+  .error {
+    font-size: 2.5rem;
+  }
   .modal {
     left: calc(50% - 20rem);
     width: 40rem;

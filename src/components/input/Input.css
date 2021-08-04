@@ -1,14 +1,13 @@
 .input {
   margin: 2.5rem auto 0;
-  width: 50rem;
-  max-width: 95vw;
+  width: 100%;
+  max-width: 100vw;
   text-align: center;
 }
 
 .input-field {
-  width: 30rem;
-  max-width: 80vw;
-  height: 4rem;
+  max-width: 100%;
+  height: 3.5rem;
   outline: none;
   border: none;
   font-size: 1.5rem;
@@ -22,8 +21,8 @@
 }
 
 .input-btn {
-  height: 4rem;
-  width: 4rem;
+  height: 3.5rem;
+  width: 3.5rem;
   background: burlywood;
   outline: none;
   border: none;
@@ -43,4 +42,24 @@
 .valid {
   color: red;
   font-size: 1.2rem;
+}
+
+@media (min-width: 768px) {
+  .input {
+    margin: 2.5rem auto 0;
+    width: 50rem;
+    max-width: 95vw;
+    text-align: center;
+  }
+  .input-field {
+    width: 30rem;
+    max-width: 80vw;
+    height: 4rem;
+    font-size: 1.5rem;
+  }
+  .input-btn {
+    height: 4rem;
+    width: 4rem;
+    font-size: 1.5rem;
+  }
 }

@@ -1,7 +1,6 @@
 .input-list {
   margin: 1rem auto 0;
-  width: 50rem;
-  max-width: 95vw;
+  max-width: 97vw;
   list-style: none;
   max-height: 45vh;
   overflow-y: scroll;
@@ -13,4 +12,11 @@
   margin-top: 2rem;
   padding: 1rem;
   text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .input-list {
+    width: 50rem;
+    max-width: 95vw;
+  }
 }

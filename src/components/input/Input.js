@@ -70,7 +70,7 @@ function Input({ items, setInputGoals }) {
   };
 
   return (
-    <div>
+    <div className="input-container">
       {error && <ErrorModal onConfirm={errorHandler} />}
       <div className="input">
         <div className="validation">
