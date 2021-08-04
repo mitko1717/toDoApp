@@ -2,7 +2,7 @@
   margin: 1rem auto 0;
   max-width: 97vw;
   list-style: none;
-  max-height: 45vh;
+  max-height: 40vh;
   overflow-y: scroll;
 }
 
@@ -16,7 +16,11 @@
 
 @media (min-width: 768px) {
   .input-list {
+    margin: 1rem auto 0;
     width: 50rem;
     max-width: 95vw;
+    list-style: none;
+    max-height: 45vh;
+    overflow-y: scroll;
   }
 }
