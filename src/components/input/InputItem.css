@@ -81,4 +81,27 @@
     transition: all 0.2s ease-in-out;
     text-decoration: line-through;
   }
+
+  .input-item__btn {
+    color: white;
+    width: 4rem;
+    height: 3rem;
+    outline: none;
+    border: none;
+    background: burlywood;
+    margin: 0 0.1rem;
+    font-size: 1.3rem;
+    text-align: center;
+    cursor: pointer;
+    opacity: 1;
+  }
+
+  .input-item__btn:hover {
+    opacity: 0.6;
+  }
+
+  .input-item__btn-last {
+    margin-right: 0;
+    margin-left: 0 0.05rem;
+  }
 }
